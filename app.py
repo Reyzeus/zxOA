@@ -26,16 +26,16 @@ from linebot.models import (
     ImageMessage, VideoMessage, AudioMessage, FileMessage,
     UnfollowEvent, FollowEvent, JoinEvent, LeaveEvent, BeaconEvent,
     FlexSendMessage, BubbleContainer, ImageComponent, BoxComponent,
-    TextComponent, SpacerComponent, IconComponent, ButtonComponent,
+    TextComponent, SpanComponent, SpacerComponent, IconComponent, ButtonComponent,
     SeparatorComponent,
 )
 
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('ISI TOKEN OA KALIAN')
+line_bot_api = LineBotApi('YtXfNQiW+qclp74oWQmxqOHKDOEppXtimYDxvclwF9ulOej7e908Qukwx4vx1Fwex3pENph0o1z2JqY2DVMv8MD98OSA/w9hdfdiQG9FLjZLjhxwFjVP9eXgEu1IHmaHbwfuDdi5HNlMj96v93pougdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
-handler = WebhookHandler('ISI CHHANEL SCREET')
+handler = WebhookHandler('6339e507d54c153d1af3ae60ea41bd4f')
 #===========[ NOTE SAVER ]=======================
 notes = {}
 
